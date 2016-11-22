@@ -2,6 +2,7 @@
 <resources>
     <declare-styleable name="BlurTextView">
         <attr name="changing" format="boolean" />
+        <attr name="isAsync" format="boolean" />
         <attr name="radius" format="float" />
         <attr name="scaleFactor" format="float" />
         <attr name="backgroundView" format="reference" />

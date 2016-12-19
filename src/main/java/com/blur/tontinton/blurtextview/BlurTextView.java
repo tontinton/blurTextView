@@ -37,7 +37,7 @@ public class BlurTextView extends TextView {
             mIsChanging = a.getBoolean(R.styleable.BlurTextView_changing, false);
             mIsAsync = a.getBoolean(R.styleable.BlurTextView_isAsync, true);
             mRadius = a.getFloat(R.styleable.BlurTextView_radius, 20) / 10;
-            mScaleFactor = a.getFloat(R.styleable.BlurTextView_radius, 1) * 8;
+            mScaleFactor = a.getFloat(R.styleable.BlurTextView_scaleFactor, 1) * 8;
             mBackViewId = a.getResourceId(R.styleable.BlurTextView_backgroundView, ERROR_CODE);
         } finally {
             a.recycle();
